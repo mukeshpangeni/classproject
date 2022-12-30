@@ -1,0 +1,341 @@
+<html>
+    <head>
+        <title>home</title>
+    </head>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+#first{
+    background-image: url(images1.jpg) ;
+    background-color: rgba(17, 17, 17, 0.726);
+  }
+ul {
+  list-style-type: none;
+   overflow: hidden;
+  background-image: linear-gradient(135deg, #ce8cd3 30%, #1904E5 100%);
+}
+li {
+  float: left;
+}
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+  background-color:  #111;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+  form.apple input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  form.apple button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  form.apple button:hover {
+    background: #0b7dda;
+  }
+  form.apple::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .wears .dropdown-content1 {
+    visibility: hidden;
+    float: right;
+    z-index: 10;
+    width: 90%;
+   }
+   .wears:hover .dropdown-content1 {
+    visibility: visible;
+  }
+ .dropdown-content1 {
+   position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+  }
+ .column:hover{
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1); 
+  transform: scale(1.0105); 
+ }
+  * {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+      </style>
+    <body style="background-image: linear-gradient(135deg, #FAB2FF 10%, #1904E5 100%);">
+             <div id="first" style=" position: fixed;right: 0; top: 0;min-width: 100%;height: 20vw;  ">
+        <diV style="padding-left:5%">
+       <div style="font-size: 50px;font-family: sans-serif;"> The shopping center</div>
+       <div style="padding-left: 10%; padding-top: 3%; ">
+             <form class="apple" action="">
+          <input type="text" placeholder="Search the product you need......" name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+            </diV>
+       </div>
+<div  style="position:absolute;top: 15.2vw;width: 100%;">
+           <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="aboutus.html">About us</a></li>
+        <li class="dropdown">
+          <a  class="dropbtn">Product categories</a>
+            <div class="dropdown-content">
+            <div class="wears">
+            <a href="#">Men wears</a>
+            <div style="padding-left: 60%;">
+                 <div class="dropdown-content1">
+                  <a href="#">Shirt</a>
+                  <a href="#">Pants</a>
+                  <a href="#">T-shirt</a>
+                  <a href="#">others</a>       
+                 </div>
+                </div>     
+              </div>
+ <div class="wears">
+            <a href="#">Women's Fashion</a>
+            <div style="padding-left: 60%;">
+              <div class="dropdown-content1">
+               <a href="#">T-shirt</a>
+               <a href="#">Pants</a>       
+               <a href="#">Bags collection</a>       
+               <a href="#">others</a>       
+              </div>
+             </div>     
+           </div>
+                      <div class="wears">
+            <a href="#">Child section</a>
+            <div style="padding-left: 60%;">
+              <div class="dropdown-content1">
+               <a href="#">Baby Boy</a>
+               <a href="#">Baby Girl</a>       
+              </div>
+             </div>     
+           </div>
+           <div class="wears">
+            <a href="#">rescent trends</a>
+            <div style="padding-left: 60%;">
+              <div class="dropdown-content1">
+               <a href="#">Hoodies</a>
+               <a href="#">Monkey caps</a>       
+               <a href="#">VR studio</a>       
+              </div>
+             </div>     
+           </div>
+    <div class="wears">
+            <a href="#">foot wears</a>
+            <div style="padding-left: 60%;">
+              <div class="dropdown-content1">
+               <a href="#">Gents </a>
+               <a href="#">Ladies</a>       
+              </div>
+             </div>     
+           </div>
+          </div>
+        </li>
+        <div style="padding-left: 0px;text-align:center">
+        <li style="float: left;width:60%;color:rgb(8, 182, 167)"><marquee>20% discount limited offer<br>shop fast now</marquee>  </li></div>
+        <li style="float:right"><a href="index.html">sign up</a></li>
+        <li style="float:right"><a href="index.html">log in</a></li>
+      </ul>
+    </div>
+       </div>
+       <div style="padding-top: 20%;">
+<div style=" width: 95%; box-shadow: 0 0 20px 6px #090b6f85;border-radius: 10px;margin: 0 auto;height:fit-content;">
+  <div class="row">
+    <a href="https://www.amazon.com/gp/help/customer/display.html/?nodeId=GXE45NTWZ2QW2ZFM&pf_rd_r=YAVF0YG6JJFD183G9157&pf_rd_p=fe3c0154-1dc2-48b7-9d75-a77fe026193d&pd_rd_r=e4dce113-848b-4780-81ad-bae14aab5793&pd_rd_w=svPBJ&pd_rd_wg=Gb4sA&ref_=pd_gw_unk" style="text-decoration: none;">
+    <div class="column" style="width: 25%;">
+    <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Easy returns</h3>
+      <img src="easyreturns.jpg" style="width:100%">
+      <a href="#">shop now</a>
+    </div>
+    </div>
+  </a>
+<a style="text-decoration: none;" href="https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A3777891&pd_rd_r=e4dce113-848b-4780-81ad-bae14aab5793&pd_rd_w=l1hIy&pd_rd_wg=Gb4sA&pf_rd_p=eab778f7-37cf-4c6b-9552-5370900592a9&pf_rd_r=YAVF0YG6JJFD183G9157&ref=pd_gw_unk">
+    <div class="column" style="width: 25%;">
+      <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Personal care</h3>
+        <img src="personalcare.jpg"  style="width:100%">
+        <a href="#">shop now</a>
+      </div>
+      </div>
+    </a>
+    <a style="text-decoration: none;" href="https://www.amazon.com/s?i=fashion-womens-intl-ship&bbn=16225018011&rh=n%3A16225018011%2Cn%3A1040660%2Cn%3A1045024&pd_rd_r=e4dce113-848b-4780-81ad-bae14aab5793&pd_rd_w=b7m5f&pd_rd_wg=Gb4sA&pf_rd_p=6a92dcea-e071-4bb9-866a-369bc067390d&pf_rd_r=YAVF0YG6JJFD183G9157&qid=1646786470&rnid=1040660&ref=pd_gw_unk">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Dresses</h3>
+          <img src="dresses.jpg" style="width:100%">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+      </a>
+        <a style="text-decoration: none; " href="https://www.amazon.com/b?node=16225009011&pf_rd_r=YAVF0YG6JJFD183G9157&pf_rd_p=5232c45b-5929-4ff0-8eae-5f67afd5c3dc&pd_rd_r=e4dce113-848b-4780-81ad-bae14aab5793&pd_rd_w=gQtgI&pd_rd_wg=Gb4sA&ref_=pd_gw_unk">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">   Electronics</h3>
+          <img src="electronics.jpg"  style="width:100%">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+      </a>
+   </div>
+      <div class="row">
+<a style="text-decoration: none;" href="https://www.amazon.com/s?k=toys&s=date-desc-rank&pd_rd_r=e980d2d4-6206-4e34-a44b-3e5d6a6ae5a5&pd_rd_w=xW1f1&pd_rd_wg=YOljC&pf_rd_p=779cadfb-bc4d-465d-931f-0b68c1ba5cd5&pf_rd_r=YAVF0YG6JJFD183G9157&qid=1632870778&ref=pd_gw_unk">
+    <div class="column" style="width: 25%;">
+    <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">New arrivals of toys</h3>
+      <img src="toys.jpg"  style="width:100%">
+      <a href="#">shop now</a>
+    </div>
+    </div>
+    </a>
+<a style="text-decoration: none;" href="https://www.amazon.com/b?node=16225014011&pf_rd_r=05HJGY41MFCADGVF1BNQ&pf_rd_p=152091c3-ff04-4c57-8721-f1423f1e428d&pd_rd_r=aef09200-47d5-4a60-918d-53f96f163c94&pd_rd_w=NVGEK&pd_rd_wg=2Gyf6&ref_=pd_gw_unk">
+    <div class="column" style="width: 25%;">
+      <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Get fit at home</h3>
+        <img src="getfit.jpg"  style="width:100%">
+        <a href="#">shop now</a>
+      </div>
+      </div>
+    </a>
+    <a style="text-decoration: none;" href="https://www.amazon.com/s?k=Kindle+E-readers&pd_rd_r=6ffab998-41b0-4af5-9a46-2b4d40b80b1e&pd_rd_w=gTXDU&pd_rd_wg=cmdKd&pf_rd_p=b9deb6fa-f7f0-4f9b-bfa0-824f28f79589&pf_rd_r=05HJGY41MFCADGVF1BNQ&ref=pd_gw_unk">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Kindle e readers</h3>
+          <img src="kindle.jpg"  height="230px" style="width:100%">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+       </a>
+ <a style="text-decoration: none;" href="https://www.amazon.com/s?bbn=16225007011&rh=n%3A16225007011%2Cn%3A13896617011&fst=as%3Aoff&qid=1602294815&rnid=16225007011&pf_rd_r=4YHKSDGRP46CS20DWJQT&pf_rd_p=5b7fc375-ab40-4cc0-8c62-01d4de8b648d&pd_rd_r=437b873b-ab16-4045-a5f2-03e96ba7db49&pd_rd_w=ielJz&pd_rd_wg=ZwSF2&ref_=pd_gw_unk">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Laptops and tablets</h3>
+          <img src="laptops.jpg"  style="width:100%">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+   </div>
+  </a>
+   <div class="row">
+     <a style="text-decoration: none;" href="">
+    <div class="column" style="width: 25%;">
+    <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Activity trackers</h3>
+      <img src="track.jpg"  style="width:100%">
+      <a href="#">shop now</a>
+    </div>
+    </div>
+  </a>
+<a style="text-decoration: none;" href="https://www.amazon.com/s?k=pet+supplies&s=date-desc-rank&crid=3IF5TSVMY5YRB&pd_rd_r=985d5983-14c2-4dc2-a743-784f18611686&pd_rd_w=7tNqD&pd_rd_wg=ou9gI&pf_rd_p=ab475c0d-7817-4703-9d6d-f003bf2156bf&pf_rd_r=ZMHD60V47GQMKCTWGRVC&qid=1632868254&sprefix=pet+sup%2Caps%2C268&ref=pd_gw_unk">
+    <div class="column" style="width: 25%;">
+      <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Pet supplies</h3>
+        <img src="pets.jpg"  style="width:100%">
+        <a href="#">shop now</a>
+      </div>
+      </div>
+    </a>
+<a style="text-decoration: none;" href="https://www.amazon.com/s?k=strip+lighting&pd_rd_r=985d5983-14c2-4dc2-a743-784f18611686&pd_rd_w=QlvIV&pd_rd_wg=ou9gI&pf_rd_p=7738c60e-a1c7-4678-9812-5d82959d511c&pf_rd_r=ZMHD60V47GQMKCTWGRVC&ref=pd_gw_unk">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Create strips with light</h3>
+          <img src="light.jpg"  style="width:100%">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+      </a>
+  <a style="text-decoration: none;" href="https://www.amazon.com/s?k=books&i=stripbooks-intl-ship&ref=nb_sb_noss">
+      <div class="column" style="width: 25%;">
+        <div style="background-color: #f1f1f1;border:1px solid white;font-family:Arial,sans-serif;"><h3 style="padding-left: 30px;">Books</h3>
+          <img src="books.jpg"  style="width:100%;height:230px;">
+          <a href="#">shop now</a>
+        </div>
+        </div>
+      </a>      
+   </div>
+</div>
+</div>
+<footer style="background-color: #00000081;width: 100%;left: 0px;bottom: 0px;border-radius:5px;">
+<div style="margin:auto;width:100%;left:0%">
+<div >
+ <table style="width: 100%; font-size:19px">
+   <tr>
+     <td style="color: white;"><h3><u>Business</u></h3></td>
+     <td style="color: white;"><h3><u>Get help</u></h3></td>
+     <td style="color: white;"><h3><u>online shop</u></h3></td>
+     <td style="color: white;"><h3><u>social media</u></h3></td>
+   </tr>
+   <tr>
+    <td style="padding-top: 40px;"><a href="#"style="color:white;text-decoration:none">About us</a></td>
+    <td style="padding-top: 40px;"><a href="#"style="color:white;text-decoration:none">FAQ</a></td>
+    <td style="padding-top: 40px;"><a href="#"style="color:white;text-decoration:none">watch</a></td>
+    <td style="padding-top: 40px;"><i class="fab fa-facebook-f"></i><a href="#"style="color:white;text-decoration:none;margin: 0 8px;border-radius: 50%;">facebook</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"style="color:white;text-decoration:none">privacy policy</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">shipping</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">bag</a></td>
+    <td ><i class="fab fa-twitter"></i><a href="#"style="color:white;text-decoration:none;height: 40px;margin: 0 8px;border-radius: 50%;">twitter</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"style="color:white;text-decoration:none">our servieces</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">returns</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">shoes</a></td>
+    <td ><i class="fab fa-instagram"></i><a href="#"style="color:white;text-decoration:none;height: 40px;margin: 0 8px;border-radius: 50%;">Instagram</a></td>
+  </tr>
+  <tr>
+    <td><a href="#"style="color:white;text-decoration:none">affiliate program</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">order status</a></td>
+    <td><a href="#"style="color:white;text-decoration:none">dress</a></td>
+    <td ><i class="fab fa-linkedin-in"></i><a href="#"style="color:white;text-decoration:none;height: 40px;margin: 0 8px;border-radius: 50%;">linkedin</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td><a href="#"style="color:white;text-decoration:none">payment options</a></td>
+    <td></td>
+    <td ><i class="fab fa-youtube"></i><a href="#"style="color:white;text-decoration:none;height: 40px;margin: 0 8px;border-radius: 50%;">Youtube</a></td>
+</tr>
+ </table>
+</div>
+</div>
+</footer>
+      </body>
+</html>
